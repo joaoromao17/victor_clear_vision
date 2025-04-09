@@ -3,7 +3,8 @@
 Este é o site oficial da ótica **Victor Clean Vision**, desenvolvido para apresentar os tipos de lentes oferecidos, possibilitar pedidos rápidos via WhatsApp e destacar os diferenciais da loja — como a **entrega no mesmo dia**.
 
 ## 🌐 Link do site
-[🔗 Acesse o site aqui](https://seusite.com)
+[🔗 Acesse o site aqui](https://joaoromao17.github.io/victor_clear_vision/)  
+[![Deploy](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)](https://joaoromao17.github.io/victor_clear_vision/)
 
 ## 🖼️ Prévia
 
@@ -73,7 +74,7 @@ Este é o site oficial da ótica **Victor Clean Vision**, desenvolvido para apre
 
 ## 📦 Como rodar localmente
 1. Baixe o repositório:
-git clone https://github.com/seu-usuario/victor_clear_vision.git
+git clone https://github.com/joaoromao17/victor_clear_vision.git
 2. Abra a pasta no seu editor de código.
 3. Clique duas vezes no `index.html` para abrir no navegador (ou use o Live Server).
 4. Navegue pelo site normalmente como se estivesse online.
@@ -81,6 +82,6 @@ git clone https://github.com/seu-usuario/victor_clear_vision.git
 ## 🧑‍💻 Desenvolvedor
 - **João Vítor Romão Colares de França**
 - Tecnólogo em Análise e Desenvolvimento de Sistemas
-- [LinkedIn](https://www.linkedin.com/in/joão-vítor-romão-colares-de-frança-100257264/) (adicione se tiver)
+- [LinkedIn](https://www.linkedin.com/in/joão-vítor-romão-colares-de-frança-100257264/)
 
 ---
