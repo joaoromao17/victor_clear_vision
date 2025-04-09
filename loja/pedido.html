@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Lentes | Victor Clean Vision</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+<body>
+
+    <header>
+        <a href="../index.html"><img src="../imagens/logo.png" alt="Victor Clean Vision" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../contato/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="pedido-container">
+            <h1>Faça seu Pedido</h1>
+            <p>Preencha os campos abaixo e clique no botão para enviar seu pedido pelo WhatsApp.</p>
+
+            <form id="pedido-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo-lente">Tipo de Lente:</label>
+                    <select id="tipo-lente" name="tipo-lente" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="Monofocal">Monofocal</option>
+                        <option value="Bifocal">Bifocal</option>
+                        <option value="Multifocal">Multifocal</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="grau-esquerdo">Grau da Lente Esquerda:</label>
+                    <input type="text" id="grau-esquerdo" name="grau-esquerdo" required placeholder="Ex: 2.5" oninput="validarGrau(this)">
+                </div>
+
+                <div class="form-group">
+                    <label for="grau-direito">Grau da Lente Direita:</label>
+                    <input type="text" id="grau-direito" name="grau-direito" required placeholder="Ex: 3.0" oninput="validarGrau(this)">
+                </div>
+
+                <div class="form-group">
+                    <label for="filtro">Filtro:</label>
+                    <select id="filtro" name="filtro" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="Nenhum">Nenhum</option>
+                        <option value="Filtro Azul">Filtro Azul</option>
+                        <option value="Antirreflexo">Antirreflexo</option>
+                        <option value="Fotossensível">Fotossensível</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="observacoes">Observações:</label>
+                    <textarea id="observacoes" name="observacoes" rows="4"></textarea>
+                </div>
+
+                <button type="button" class="btn-enviar" onclick="enviarPedido()" title="Enviar pedido pelo WhatsApp">
+                    Faça seu Pedido
+                </button>
+                <div id="mensagem-confirmacao" class="mensagem-confirmacao" style="display: none;"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <img src="../imagens/logo.png" alt="Victor Clean Vision" class="footer-logo">
+            <p>&copy; 2025 Victor Clean Vision - Todos os direitos reservados.</p>
+            <p>Imagens desenvolvidas com IA</p>
+        </div>
+    </footer>
+
+    <script src="../script/script.js"></script>
+
+</body>
+</html>
