@@ -551,10 +551,12 @@ footer {
         height: 300px;
     }
 
-    .pedido-btn a {
-        left: 50%;
+    .pedido-btn {
         font-size: 14px;
         padding: 8px 16px;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .lente-card {
